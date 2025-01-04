@@ -1,0 +1,31 @@
+{
+  "name": "bootstrap-utils-dom",
+  "version": "1.0.0",
+  "main": "dist/bootstrap-utils-dom.umd.js",
+  "module": "dist/bootstrap-utils-dom.esm.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "Uma biblioteca de utilitários para DOM e componentes",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.29.1"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SEU-USUARIO/bootstrap-utils-dom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SEU-USUARIO/bootstrap-utils-dom/issues"
+  },
+  "homepage": "https://github.com/SEU-USUARIO/bootstrap-utils-dom#readme"
+}
