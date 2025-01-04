@@ -25,16 +25,10 @@ export const Dom = {
 export const Util = {
   backdrop,
   sanitizeHtml,
-  enableDismissTrigger,  // Agora você pode acessar enableDismissTrigger diretamente
+  enableDismissTrigger,
   config,
   focusTrap,
   scrollBar,
   swipe,
   templateFactory,
 };
-
-// Não é mais necessário exportar o default
-// export default {
-//   Dom,
-//   Util,
-// };
